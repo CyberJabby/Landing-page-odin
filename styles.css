@@ -14,22 +14,13 @@ body{
     height: 80px;
     border-radius: 100%;
     border: 5px solid white;
-
-    
- 
-    
-
 }
 
 .links{
     display: flex;
     font-size: 18px;
     color: #ffffff;
-    gap: 30px;
-   
-
-    
-    
+    gap: 30px;    
 }
 
 .sesion-uno{
@@ -37,11 +28,6 @@ body{
     background:  #1f2937;
     display: flex;
     justify-content:space-evenly;
-
-
-
-    
-    
 }
 
 
@@ -49,25 +35,14 @@ body{
     color: #E5E7EB;
     font-size: 18px;
     width: 420px;
-    
-
-    
-    
-
 
 }
 
 
 .titulo-principal{
     color: #F9FAF8;
-    font-size: 48px;
-  
-
-  
-
-    
+    font-size: 48px; 
 }
-
 
 
 .imagen{
@@ -75,10 +50,6 @@ body{
     height: 250px; 
     width: 260px;
     padding-bottom: 50px;
-
-
-
-
 }
 
 .registrarse{
@@ -89,8 +60,6 @@ body{
     width: 25%;
     padding: 5px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 5.5);
-
-    
 }
 
 .titulo-sesion-dos{
@@ -144,33 +113,29 @@ body{
 }
 
 .sesion-tres{
-    background: #E5E7EB;
-    display: flex;  
-    justify-content:center;
-
+    flex: 1 1 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 1rem;
     
-    
-
+    background: #e5e7eb;
 }
 
-#informacion-primero{ 
-    display: flex;
-    width: 900px;
-    text-align: justify;
+blockquote{ 
     font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
 }
 
-.cybertext{
-    display: flex;
-    justify-content: end;
-    font-size: 25px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 100%;
+.sesion-tres p{
+    align-self: flex-end;
+    padding: 0 8rem;
+    margin: 0;
 }
 
 .sesion-cuatro{
-
-
     display: flex;  
     padding-top: auto;
     margin: 50px;
@@ -185,8 +150,6 @@ body{
     border-radius: 20px;
     display: flex;
     justify-content: space-around;
-
-
 }
 
 .mensaje-cuatro{
